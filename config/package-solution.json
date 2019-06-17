@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "voitanos-azure-appinsights-spappcustomizer-client-side-solution",
+    "id": "cd4dfb78-dfd7-4c17-898b-ba22a2cdc5ca",
+    "version": "2.0.1.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "skipFeatureDeployment": true,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "e047c86d-6147-4f7f-a784-e4c10f2bc35c",
+        "version": "2.0.1.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/voitanos-azure-appinsights-spappcustomizer.sppkg"
+  }
+}

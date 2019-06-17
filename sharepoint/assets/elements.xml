@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AzureApplicationInsights"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="ab9bb52c-0a87-4cf4-a415-ffd3fa12325f"
+        ClientSideComponentProperties="{&quot;aikey&quot;:&quot;8e937756-a28b-4b74-8bcd-a19c0e8b8a45&quot;}">
+    </CustomAction>
+</Elements>
+
+
+
+
+
+
+

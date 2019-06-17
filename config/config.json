@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "azure-application-insights-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/azureApplicationInsights/AzureApplicationInsightsApplicationCustomizer.js",
+          "manifest": "./src/extensions/azureApplicationInsights/AzureApplicationInsightsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": { },
+  "localizedResources": {
+    "AzureApplicationInsightsApplicationCustomizerStrings": "lib/extensions/azureApplicationInsights/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "packageManager": "yarn",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.8.2",
+    "libraryName": "voitanos-azure-appinsights-spappcustomizer",
+    "libraryId": "cd4dfb78-dfd7-4c17-898b-ba22a2cdc5ca",
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
